@@ -1,0 +1,93 @@
+.onlinesto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+.inlinedesk {
+    display: flex;
+    justify-content: space-between;
+}
+.shop-btn {
+    /* width: 200px;
+    height: 200px */
+    background-color: rgb(255, 17, 0);
+    padding: 6px 12px;
+    border-radius: 6px; 
+    justify-content: center;
+    transition: 0.7s ease;
+    text-align: center;
+    width: 10em;
+    box-sizing: content-box;  
+    float: right;
+}
+
+.span1 {
+    text-align: center;
+    text-size-adjust: 200px;
+    font-size: larger;
+    ;
+}
+
+.box-image {
+    position: relative;
+    width: 100%;
+    border: color red 10px;
+    display: block;
+   
+     
+}
+.immagine1 {
+    width: 200px;
+    height: 200px; 
+    position:relative;
+}
+
+.cover {
+    object-fit: contain;
+    max-width: 200px;
+    transition: 0.5s ease
+    
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    
+
+}
+
+.cover:hover { 
+    transform: scale(1.2);
+
+}
+
+.immagine1:hover { 
+    transform: scale(1.2)
+}
+
+
+.container {
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 3 rem;
+    justify-content: center;
+}
+
+
+
+.shop-btn:hover{
+    /* width: 500px;
+    height: 100px;
+    justify-content: center; */
+    transform: scale(1.1)
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
